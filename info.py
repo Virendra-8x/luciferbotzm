@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/a44f611f1311708b9d1b3-c134b30cb3b169aa15.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -133,7 +133,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
