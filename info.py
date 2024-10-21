@@ -44,7 +44,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1001974701403') # give your force s
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001974701403')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002312471862')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002139357839')).split()]
@@ -74,7 +74,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/EL_PROFESSOR_REQU')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ELprofessorbackup')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_download_hdj')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ELprofessorbackup) # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'el_pro_diss') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
