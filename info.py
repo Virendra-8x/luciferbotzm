@@ -103,12 +103,12 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', '')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', true))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', ')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
