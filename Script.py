@@ -228,8 +228,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href='https://t.me/ELprofessorbackup'>{file_name}</a>
-</b>""" 
+    CAPTION = """<b><blockquote><a href='https://t.me/ELprofessorbackup'>{file_name}</a></blockquote>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
